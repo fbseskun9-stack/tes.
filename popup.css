@@ -1,0 +1,53 @@
+/* Modal Styles */
+#recoveryModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-card {
+    background-color: white;
+    padding: 30px 25px 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    text-align: center;
+}
+
+.header {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-size: 1.0em;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.button-confirm {
+    width: 100%;
+    padding: 15px;
+    background-color: #ee4d2d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-confirm:hover {
+    background-color: #d13c23;
+}
